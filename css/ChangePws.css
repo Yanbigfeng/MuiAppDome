@@ -1,0 +1,55 @@
+/************
+*【区域】提醒
+************/
+.warning{
+	margin-top: 30px;
+	height: 76px;
+	background-color: #E95353;
+	font-size: 14px;
+	color: white;
+	padding: 15px;
+}
+
+/************
+*【区域】输入区
+************/
+
+/*重写mui行*/
+.mui-input-row {
+	background-color: white;
+	margin-top: 5px;
+}
+.mui-input-group .mui-input-row {
+	height: 50px;
+}
+
+.mui-input-row label {
+	float: left;
+	width: 100px;
+	height: 50px;
+	padding-left: 0;
+	padding-right: 0;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #F1F1F1;
+}
+
+.mui-input-row label~input {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	padding-left: 15px;
+}
+input::-webkit-input-placeholder{
+	font-size: 16px;
+
+}
+/*按钮样式*/
+.bottombtn{
+	margin-top: 10px;
+	height: 50px;
+	background-color: #3689BB;
+	font-size: 22px;
+	padding:10px 0;
+}

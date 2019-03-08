@@ -1,0 +1,64 @@
+/*****************
+*【区域】余额
+*************/
+/*覆盖mui表头的阴影效果*/
+.mui-bar {
+	box-shadow: none;
+}
+
+.balance {
+	height: 190px;
+	background-color: #006699;
+	padding-left: 30px;
+}
+
+.balance .lbltext {
+	height: 70;
+	font: 400 20px/70px "微软雅黑";
+	color: #C1C1C1;
+}
+
+.balance .showtext {
+	height: 120px;
+	font: 400 40px/120px "微软雅黑";
+	color: #FDFDFE;
+}
+
+/*****************
+*【区域】提现
+*************/
+
+.bill {
+	height: 55px;
+	background-color: #FAFAFA;
+	padding-left: 10px;
+}
+
+.fore {
+	float: left;
+	position: relative;
+	padding-left: 50px;
+	line-height: 55px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.fore i {
+	position: absolute;
+	left: 20px;
+	top: 16px;
+	height: 30px;
+	width: 30px;
+	background: url(../images/balance.png) no-repeat;
+}
+
+.bill-right {
+	float: right;
+	padding-right: 25px;
+	font: 400 30px/55px "微软雅黑";
+	color: #C1C1C1;
+}
+
+a:hover {
+	color: #666;
+}

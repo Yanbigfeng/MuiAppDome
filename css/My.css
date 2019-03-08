@@ -1,0 +1,162 @@
+/*标题*/
+
+.head {
+	height: 100px;
+	width: 100%;
+	margin-top: 44px;
+	background-color: #FAFAFA;
+}
+
+.head-left {
+	float: left;
+	height: 80px;
+	padding: 10px 15px 10px 10px;
+}
+
+.imgwidt {
+	display: block;
+	float: left;
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	overflow: hidden;
+	/* border: 1px solid #5E5E5E; */
+}
+
+.imgwidt img {
+	/* margin-left: -25px;
+	margin-top: -15px; */
+}
+
+.head-name {
+	float: left;
+	height: 100%;
+}
+
+.head-name span {
+	display: block;
+	margin-top: 25px;
+}
+
+.name {
+	font-size: 16px;
+	font-weight: 700;
+	color: #3C3C3C;
+}
+
+.job {
+	font-size: 14px;
+	font-weight: 700;
+	color: #868686;
+}
+
+.head-right {
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+
+
+/*等级区域*/
+
+.h {
+	height: 55px;
+	background-color: #FAFAFA;
+	padding-left: 10px;
+}
+
+
+/*设置每小块的距离*/
+
+.grade,
+.start {
+	margin-top: 5px;
+}
+
+.bill,
+.sign,
+.password {
+	margin-top: 20px;
+}
+
+.balance {
+	margin-top: 2px;
+}
+
+.fore {
+	float: left;
+	position: relative;
+	padding-left: 40px;
+	line-height: 55px;
+	font-size: 16px;
+	font-family: initial;
+}
+
+.fore i {
+	position: absolute;
+	left: 10px;
+	top: 16px;
+}
+
+.start-right,
+.start-rights {
+	float: right;
+	padding-right: 25px;
+	font: 400 30px/55px "微软雅黑";
+	color: #C1C1C1;
+}
+
+
+/*去除等级中星星星的点击效果*/
+
+.h a {
+	color: #666;
+}
+
+
+/*男女符号*/
+
+.maleIcon{
+	background-image: url(../images/maleIcon.png);
+}
+.femaleIcon{
+	background-image: url(../images/femaleIcon.png);
+}
+/*每个小块前面的图标*/
+.icon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+
+.star {
+	background-image: url(../images/star.png);
+}
+
+.starHalf {
+	background-image: url(../images/starHalf.png);
+}
+
+.gradeIcon {
+	background-image: url(../images/gradeIcon.png);
+}
+
+.startIcon {
+	background-image: url(../images/startIcon.png);
+}
+
+.billIcon {
+	background-image: url(../images/billIcon.png);
+}
+
+.balanceIcon {
+	background-image: url(../images/balanceIcon.png);
+}
+
+.signIcon {
+	background-image: url(../images/signIcon.png);
+}
+
+.passwordIcon {
+	background-image: url(../images/passwordIcon.png);
+}

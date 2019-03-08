@@ -1,0 +1,81 @@
+
+/**********
+*【区域】搜索
+************/
+.search {
+	height: 70px;
+	background-color: #FAFAFA;
+	padding: 10px 10px;
+	position: relative;
+	margin-top: 10px;
+}
+
+.search-left {
+	float: left;
+	font: 700 16px/50px "微软雅黑";
+}
+
+.search-center {
+	float: left;
+	width: 100%;
+	line-height: 50px;
+	padding-left: 25px;
+	padding-right: 55px;
+	
+}
+
+.search-center input {
+	height: 45px;
+	width: 100%;
+	font: 400 16px/45px "微软雅黑";
+	background-color: #FAFAFA;
+	-webkit-user-select: text;
+	-user-select: text;
+}
+
+.search-right {
+	/*float: right;*/
+	right: 10px;
+	position: absolute;
+}
+
+.search-right img {
+	height: 50px;
+	width: 50px;
+}
+
+
+/**********
+*【区域】内容
+************/
+.mui-content{
+	margin-bottom: 55px;
+}
+/**********
+*【区域】底部
+************/
+
+.bottom {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	height: 55px;
+	padding: 3px 0 4px 0;
+	background-color: white;
+}
+.bottom div{
+	width: 49%;
+	background-color: #2B9130;
+	height: 48px;
+	text-align: center;
+	color: white;
+	font: 700 16px/48px '微软雅黑';
+	border-radius: 3px;
+}
+.bottom .bottom-left{
+	float: left;
+	
+}
+.bottom .bottom-right{
+	float: right;
+}

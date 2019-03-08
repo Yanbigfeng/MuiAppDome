@@ -1,0 +1,160 @@
+
+
+/*清除浮动的bug*/
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: block;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+/*标题*/
+
+.title {
+	height: 100px;
+	width: 100%;
+	color: #ffffff;
+	background-color: #0099CC;
+}
+
+.title-left {
+	float: left;
+	width: 50%;
+	height: 100px;
+	padding: 10px 0px 10px 10px;
+}
+
+.title-right {
+	float: right;
+	width: 50%;
+}
+
+.imgwidt {
+	display: block;
+	float: left;
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	overflow: hidden;
+	/* border: 1px solid #5E5E5E; */
+}
+
+.imgwidt img {
+}
+
+.name {
+	display: block;
+	margin-left: 100px;
+	line-height: 80px;
+	font-size: 16px;
+}
+
+.title-right-top {
+	height: 40px;
+}
+
+.title-right-top i {
+	display: block;
+	float: right;
+	height: 22px;
+	width: 22px;
+	margin: 10px 25px 8px 0px;
+}
+
+.setIcon {
+	background: url(../images/ma.png) no-repeat -60px -59px;
+}
+
+.addIcon {
+	background: url(../images/ma.png) no-repeat -60px -59px;
+}
+
+.title-right-bottom {
+	height: 60px;
+}
+
+.title-right-bottom i {
+	display: block;
+	float: right;
+	height: 32px;
+	width: 32px;
+	margin: 11px 25px 11px 0px;
+}
+
+.scanIcon {
+	background: url(../images/scan.png) no-repeat;
+	background-color: #FFFFFF;
+}
+
+.fileIcon {
+	background: url(../images/file.png) no-repeat 2px 0;
+	border-radius: 30px;
+	background-color: #FFFFFF;
+}
+
+
+/*中间区域*/
+
+.content {
+	height: 460px;
+	margin-top: 4px;
+	background-color: #FEFEFE;
+}
+
+.content ul {
+	list-style: none;
+}
+
+.content-top li {
+	float: left;
+	width: 33%;
+	height: 120px;
+	border-left: 1px solid #DAE4ED;
+	border-bottom: 1px solid #DAE4ED;
+}
+
+.content-top li a {
+	display: block;
+	height: 120px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	font: 500 14px/185px "微软雅黑";
+	color: #666;
+}
+
+
+.content-top-icon {
+	background-color: red;
+	border-radius: 38px;
+	background: url(../images/file.png) no-repeat;
+}
+
+.content-bottom {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	font: 700 16px/100px "微软雅黑";
+}
+
+/*小块图标*/
+.orderIcon{
+	background: url(../images/orderIcon.png) no-repeat center left 50%;
+}
+.deliveryIcon {
+	background: url(../images/deliveryIcon.png) no-repeat center left 50%;
+}
+.inWarehouseIcom{
+	background: url(../images/inWarehouseIcom.png) no-repeat center left 50%;
+}
+.outWarehouseIcon{
+	background: url(../images/outWarehouseIcon.png) no-repeat center left 50%;
+}
+.moveWarehouseIcon{
+	background: url(../images/moveWarehouseIcon.png) no-repeat center left 50%;
+}
+.installIcon {
+	background: url(../images/installIcon.png) no-repeat center left 50%;
+}
+

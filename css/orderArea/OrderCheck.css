@@ -1,0 +1,100 @@
+/*************
+*【区域】切换
+************/
+.select {
+	margin-top: 10px;
+	height: 60px;
+	line-height: 60px;
+	padding: 10px 0;
+	background-color: white;
+	touch-action: none;
+}
+
+.wcol {
+	width: 45%;
+	margin-left: 5%;
+	
+}
+/**********
+*【区域】搜索
+************/
+.search {
+	height: 50px;
+	background-color: #FAFAFA;
+	padding: 0px 0px;
+	position: relative;
+	margin-top: 10px;
+}
+
+.search-left {
+	float: left;
+	font: 700 16px/50px "微软雅黑";
+}
+
+.search-center {
+	float: left;
+	width: 100%;
+	line-height: 50px;
+	padding-left: 25px;
+	padding-right: 55px;
+
+}
+
+.search-center input {
+	height: 45px;
+	width: 100%;
+	font: 400 16px/45px "微软雅黑";
+	background-color: #FAFAFA;
+}
+
+.search-right {
+	/*float: right;*/
+	right: 10px;
+	position: absolute;
+}
+
+.search-right img {
+	height: 50px;
+	width: 50px;
+}
+/**********
+*【区域】内容
+************/
+.mui-content{
+	margin-bottom: 55px;
+}
+/**********
+*【区域】底部
+************/
+
+.bottom {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 55px;
+	padding: 3px 0 4px 0;
+	background-color: white;
+
+}
+
+.bottom div {
+	width: 45%;
+	background-color: #378ABD;
+	height: 48px;
+	text-align: center;
+	color: white;
+	font: 700 16px/48px '微软雅黑';
+	border-radius: 5px;
+}
+
+.bottom .bottom-left {
+	float: left;
+	margin-left: 2%;
+
+
+}
+
+.bottom .bottom-right {
+	float: right;
+	margin-right: 2%;
+}

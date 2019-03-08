@@ -1,0 +1,86 @@
+body {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.h55 {
+	height: 55px;
+	line-height: 55px;
+}
+
+.h60 {
+	height: 60px;
+	line-height: 60px;
+}
+
+.w {
+	padding-left: 20px;
+}
+.w span {
+	padding-left: 10px;
+}
+.w label {
+	display: inline-block;
+	width: 80px;
+}
+.border1PX {
+	border-bottom: 1px solid #E0E0E0;
+}
+
+/*姓名和身份证*/
+
+.name {
+	background-color: #FAFAFA;
+}
+
+
+/*性别*/
+.sex {
+	margin-top: 10px;
+	background-color: #FAFAFA;
+}
+.sex-left {
+	float: left;
+}
+.sex-left i{
+	margin-left: 65px;
+}
+.sex-right {
+	float: right;
+	margin-right: 60px;
+}
+.greenmaleIcon{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url(../images/greenmaleIcon.png);
+}
+.femaleIcon{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url(../images/femaleIcon.png);
+}
+/*资料*/
+.means {
+	margin-top: 10px;
+	background-color: #FAFAFA;
+}
+.means-col-left {
+	float: left;
+}
+.means-col-right {
+	float: right;
+	margin-right: 10px;
+}
+/*身份证照片*/
+.idcard {
+	margin-top: 10px;
+	background-color: #FAFAFA;
+}
+.photo {
+	height: 115px;
+	background: url(../images/photo.png) no-repeat;
+	background-position-x: 50%;
+	background-position-y: 50%;
+}

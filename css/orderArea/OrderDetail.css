@@ -1,0 +1,116 @@
+/*搜索区域*/
+
+.search {
+	height: 70px;
+	background-color: #FAFAFA;
+	padding: 10px 10px;
+	position: relative;
+}
+
+.search-left {
+	float: left;
+	font: 700 16px/50px "微软雅黑";
+}
+
+.search-center {
+	float: left;
+	line-height: 50px;
+	padding-left: 25px;
+}
+
+.search-center input {
+	height: 50px;
+	font: 400 16px/50px "微软雅黑";
+}
+
+.search-right {
+	/*float: right;*/
+	right: 10px;
+	position: absolute;
+}
+
+.search-right img {
+	height: 50px;
+	width: 50px;
+}
+
+
+/*订单信息*/
+
+.orderDetail {
+	font-size: 16px;
+	font-weight: 600;
+	padding: 0 10px;
+	margin-top: 10px;
+	background-color: #61B8D5;
+}
+
+.od-top ,
+.gd-top{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 2px solid #E0E0E0;
+}
+
+.od-top-left,
+.gd-top-left {
+	float: left;
+}
+
+.od-top-right,
+.gd-top-right {
+	float: right;
+	padding-right: 8px;
+}
+
+.od-center {
+	padding-top: 10px;
+}
+
+.car-one {
+	float: left;
+}
+
+.car-two {
+	float: left;
+	margin-left: 15px;
+}
+
+.od-bottom {
+	height: 35px;
+	font: 700 16px/35px "微软雅黑";
+}
+
+.od-bottom-left {
+	float: left;
+	color: #366B0D;
+}
+
+.od-bottom-right {
+	float: right;
+	color: #366B0D;
+}
+
+
+/*货物信息*/
+
+.goodsDetail {
+	padding: 0 10px;
+	margin-top: 10px;
+	background-color: #FAFAFA;
+}
+.gd-top {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.gd-center {
+	font-size: 14px;
+	font-weight: 600;
+	padding: 10px 0;
+}
+.gd-bottom {
+	height: 35px;
+	color: #366B0D;
+	font: 700 16px/35px "微软雅黑";
+}

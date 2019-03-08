@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>应用</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/Apply.css" />
+	</head>
+
+	<body>
+		<!--
+        	作者：514669734@qq.com
+        	时间：2018-10-22
+        	描述：标题头部
+        -->
+		<div class="title">
+			<div class="title-left">
+				<span class="imgwidt">
+					<img class="" src="../images/head.png" alt="" />
+				</span>
+				<span class="name">李允刚</span>
+			</div>
+			<div class="title-right">
+				<div class="title-right-top">
+					<i class="mui-icon mui-icon-plusempty "></i>
+					<i class=" mui-icon mui-icon-gear"></i>
+					<!--<i class="addIcon"></i>
+					<i class="setIcon"></i>	-->
+				</div>
+				<div class="title-right-bottom">
+					<i class="scanIcon "></i>
+					<i class="fileIcon"></i>
+				</div>
+			</div>
+		</div>
+		<!--
+        	作者：514669734@qq.com
+        	时间：2018-10-22
+        	描述：中间按钮去区域
+        -->
+		<div class="content">
+			<div class="content-top">
+				<ul>
+					<li>
+						<a id="j_goDisTask" href="DisTask.html" target="_top">
+							<i class="content-top-icon"></i> 配送任务
+						</a>
+						<script type="text/javascript" src="../js/mui.js"></script>
+						<script>
+							mui('.content-top').on('tap', 'a', function(e) {
+								mui.openWindow({
+									url: "DisTask.html",
+									id: "DisTask.html",
+									createNew: false,
+									waiting: {
+
+									}
+								})
+							})
+						</script>
+					</li>
+					<li>
+						<a href="#">
+							<i class="content-top-icon"></i> 安装任务
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="content-top-icon"></i> 票据打印
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="content-top-icon"></i> 面对面开单
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="content-top-icon"></i> 订单自检
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class=""></i>
+
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content-bottom">
+				好手信，我的好帮手
+			</div>
+
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>

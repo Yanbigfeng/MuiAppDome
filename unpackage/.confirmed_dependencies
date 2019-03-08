@@ -1,0 +1,30 @@
+{
+  "index.html": {
+    "resources": [
+      "html/News.html",
+      "css/base.css",
+      "js/mui.js",
+      "css/mui.css"
+    ],
+    "refer": [
+      "html/Apply.html",
+      "html/My.html",
+      "html/News.html"
+    ]
+  },
+  "html/Apply.html": {
+    "refer": [
+      "html/DisTask.html"
+    ]
+  },
+  "html/DisTask.html": {
+    "refer": [
+      "html/OrderDetail.html"
+    ]
+  },
+  "html/My.html": {
+    "refer": [
+      "html/MyDetail.html"
+    ]
+  }
+}
